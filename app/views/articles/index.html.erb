@@ -1,0 +1,11 @@
+<h1>Articles</h1>
+
+<%= link_to 'Create Article' , new_article_path %>
+<ul>
+  <% @articles.each do |a| %>
+      <li>
+        <%= a.title %> | <%= link_to 'Edit', edit_article_path(a) %> | <%= link_to 'Show', article_path(a) %>
+      </li>
+
+  <% end %>
+</ul>
