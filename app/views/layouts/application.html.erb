@@ -8,9 +8,17 @@
 </head>
 <body>
 
-<%= render 'layouts/messages' %>
+<%= render 'layouts/navigation' %>
 
-<%= yield %>
+<div class="container">
+
+  <%= render 'layouts/messages' %>
+
+  <%= yield %>
+
+</div>
+
+<%= render 'layouts/footer' %>
 
 </body>
 </html>
