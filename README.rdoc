@@ -1,1 +1,1 @@
-this is just for practicing ruby on rails and git
+A blog system , with admin user types , created using Ruby on rails
